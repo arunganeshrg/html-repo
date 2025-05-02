@@ -1,0 +1,10 @@
+name: Arun
+on: push
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Display Hello
+      run: echo "Hello Word"
