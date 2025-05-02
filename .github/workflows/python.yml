@@ -2,7 +2,7 @@ name: Python
 on: push
 
 jobs:
-  Python Hello
+  Python Hello:
     runs-on: ubuntu-latest
 
     steps:
